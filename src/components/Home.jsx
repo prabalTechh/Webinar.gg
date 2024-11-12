@@ -110,12 +110,12 @@ function MainConent() {
       <div className="sm:grid flex flex-col grid-cols-11 gap-4 md:p-4 py-10 h-96 flex-1 ">
         <div className="h-80 bg-white xl:col-span-3  md:-translate-y-16 rounded-xl flex flex-col items-center pt-12 gap-4 pb-6 text-sm shadow-xl ">
           <img src={img} alt="" className="h-[8rem]  w-[7rem]" />
-          <h1>Prabal Chanpuria</h1>
-          <p>
+          <h1 className="text-lg font-semibold">Prabal Chanpuria</h1>
+          <p className="text-sm text-slate-400">
             id.prabal@gmail.com <br />
             +91 9644554494
           </p>
-          <p>Delhi, India</p>
+          <p className="text-sm text-slate-400">Delhi, India</p>
         </div>
         <div className="h-full  col-span-5  px-4 ">
           <h3 className="font-medium text-slate-400">{formattedDate}</h3>
